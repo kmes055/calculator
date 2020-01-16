@@ -37,8 +37,7 @@ int main(int argc, char* argv[]) {
 }
  
 int add(int operand1, int operand2) {
-	int result = operand1 + operand2;
-	return result;
+	return operand1 + operand2;
 }
  
 int sub(int operand1, int operand2) {
