@@ -1,3 +1,8 @@
+/*
+* ver. 1.0
+* 2020-01-16
+*/
+
 #include <stdio.h>
  
 int add(int, int);
