@@ -10,7 +10,7 @@ int main(int argc, char* argv[]) {
 	int operand1, operand2, result;
 	char operator;
 	
-	printf("Please enter a expression: ");
+	printf("수식을 입력하세요: ");
 	scanf("%d %c %d", &operand1, &operator, &operand2);
 	
 	switch (operator) {
@@ -37,16 +37,18 @@ int main(int argc, char* argv[]) {
 }
  
 int add(int operand1, int operand2) {
-	return operand1 + operand2;
+	//TODO implementation
+	return 0;
 }
  
 int sub(int operand1, int operand2) {
-	return operand1 - operand2;
+	//TODO implementation
+	return 0;
 }
  
 int multi(int operand1, int operand2) {
 	//TODO implementation
-	return operand1 * operand2;
+	return 0;
 }
  
 int div(int operand1, int operand2) {
@@ -61,6 +63,5 @@ int div(int operand1, int operand2) {
 char* diff(char* func, int x) {
 	//TODO implementation
 	char* result;
-	printf("Diff complete");
 	return result;
 }
