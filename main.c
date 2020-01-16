@@ -37,8 +37,8 @@ int main(int argc, char* argv[]) {
 }
  
 int add(int operand1, int operand2) {
-	//TODO implementation
-	return 0;
+	int result = operand1 + operand2;
+	return result;
 }
  
 int sub(int operand1, int operand2) {
