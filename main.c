@@ -61,5 +61,6 @@ int div(int operand1, int operand2) {
 char* diff(char* func, int x) {
 	//TODO implementation
 	char* result;
+	printf("Diff complete");
 	return result;
 }
