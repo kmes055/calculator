@@ -48,7 +48,7 @@ int sub(int operand1, int operand2) {
  
 int multi(int operand1, int operand2) {
 	//TODO implementation
-	return 0;
+	return operand1 * operand2;
 }
  
 int div(int operand1, int operand2) {
