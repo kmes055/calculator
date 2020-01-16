@@ -26,6 +26,9 @@ int main(int argc, char* argv[]) {
 		case '/':
 			result = div(operand1, operand2);
 			break;
+		default:
+			// TODO show some error message
+			break;
 	}
 	
 	printf("result is %d.\n", result);
