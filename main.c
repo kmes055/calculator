@@ -4,17 +4,16 @@ int add(int, int);
 int sub(int, int);
 int div(int, int);
 int multi(int, int);
+char* diff(char*, int);
  
-int main(int argc, char* argv[])
-{
+int main(int argc, char* argv[]) {
 	int operand1, operand2, result;
 	char operator;
 	
 	printf("Please enter a expression");
 	scanf("%d %c %d", &operand1, &operator, &operand2);
 	
-	switch (operator)
-	{
+	switch (operator) {
 		case '+':
 			result = add(operand1, operand2);
 			break;
@@ -34,26 +33,28 @@ int main(int argc, char* argv[])
 	return 0;
 }
  
-int add(int operand1, int operand2)
-{
+int add(int operand1, int operand2) {
 	//TODO implementation
 	return 0;
 }
  
-int sub(int operand1, int operand2)
-{
+int sub(int operand1, int operand2) {
 	//TODO implementation
 	return 0;
 }
  
-int multi(int operand1, int operand2)
-{
+int multi(int operand1, int operand2) {
 	//TODO implementation
 	return 0;
 }
  
-int div(int operand1, int operand2)
-{
+int div(int operand1, int operand2) {
 	//TODO implementation
 	return 0;
+}
+
+char* diff(char* func, int x) {
+	//TODO implementation
+	char* result;
+	return result;
 }
