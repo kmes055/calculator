@@ -2,6 +2,6 @@
 
 리드미엠디
 
-It's reamd markdown
+It's readme markdown
 
 In the branch
