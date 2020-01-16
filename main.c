@@ -52,8 +52,12 @@ int multi(int operand1, int operand2) {
 }
  
 int div(int operand1, int operand2) {
-	//TODO implementation
-	return 0;
+	if (operand2 == 0){
+		printf("0으로 나누지 마시라고요.");
+		exit(1);
+	}
+	
+	return operand1/operand2;
 }
 
 char* diff(char* func, int x) {
